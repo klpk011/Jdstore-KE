@@ -38,7 +38,7 @@ end
 
 def destroy
   @product = Product.find(params[:id])
-  @prodcut.destroy
+  @product.destroy
   redirect_to admin_products_path,alert: 'Product deleted'
 end
 
